@@ -1,0 +1,84 @@
+body{
+	font-family: arial, helvetica;
+	background:#d3d3d3;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #8b0000;
+	width: 100%;
+	max-width: 1300px;
+	margin: auto;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+.menu li a:hover{
+	background: #5e2129;
+}
+.miguel{
+	display:inline-block; 
+	width: 67%
+}
+.logo{
+	display:inline-block; 
+	width: 33%
+}
+.slogan{
+	display:inline-block; 
+	width: 35%
+}
+.container{
+	position: relative;
+	top: 20px;
+	width: 90%;
+	height: auto;
+	margin: auto;
+}
+.container .list-image{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.container .list-image li .container__image{
+	position: relative;
+	width: 320px;
+	height: 300px;
+	background-color: #e3e4e5;
+	border-radius: 5px; 
+}
+
+.container .list-image li .container__image img{
+	position: relative;
+	width: 320px; 
+	height: 250px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.container .list-image li{
+	margin-right: 20px;
+	margin-bottom: 35px;
+	list-style: none;
+}
+.container .list-image li .container__image .information__image{
+	position: absolute;
+	bottom: 0;
+	width: 100%
+	height: 40px;
+	background-color: none;
+	text-decoration: none;
+}
+.view__moreinfo{
+	text-decoration:none;
+	color: black;
+	margin-left: 40%;
+}
